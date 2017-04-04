@@ -12,8 +12,8 @@ module.exports = (server) => {
         server.api.controllers.contact.createBulk(server, req, res, next);
     });
 
-    server.post('/contactUpdateMany', (req, res, next) => {
-        server.api.controllers.contact.updateBulk(server, req, res, next);
+    server.post('/contactSaveMany', (req, res, next) => {
+        server.api.controllers.contact.saveBulk(server, req, res, next);
     });
 
     server.del('/contact/:id', (req, res, next) => {
