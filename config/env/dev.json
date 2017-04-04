@@ -2,7 +2,7 @@
     "host": "127.0.0.1",
     "databaseName": "contacts",
     "username": "root",
-    "password": "malinosqui",
+    "password": "password",
     "dialect": "mysql",
     "port": 3306
 }
